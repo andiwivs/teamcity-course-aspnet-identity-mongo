@@ -35,9 +35,6 @@
 
 			var role = new IdentityRole(name);
 
-			// TEMP failing assertion
-			Expect(role.Name, Is.EqualTo("not-found"));
-
 			Expect(role.Name, Is.EqualTo(name));
 		}
 
